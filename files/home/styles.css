@@ -237,24 +237,13 @@
   visibility:hidden;
   word-wrap:break-word;
 }
-#u16_div {
+#u16_img {
   border-width:0px;
   position:absolute;
   left:0px;
   top:0px;
   width:199px;
   height:271px;
-  background:inherit;
-  background-color:rgba(0, 0, 0, 1);
-  border:none;
-  border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
-  font-family:'JCHEadA', 'HeadLineA';
-  font-weight:900;
-  font-style:normal;
-  color:#FFFFFF;
 }
 #u16 {
   border-width:0px;
@@ -272,8 +261,9 @@
   border-width:0px;
   position:absolute;
   left:2px;
-  top:18px;
+  top:128px;
   width:195px;
+  visibility:hidden;
   word-wrap:break-word;
 }
 #u18_img {
