@@ -13,11 +13,11 @@
 			font-size: 16px;
 		}
 
-		h1 {
+		/*h1 {
 			margin-bottom: 10px;
 			background: lightgrey;
 			padding: 20px 20px;
-		}
+		}*/
 
 		.recommend {
 			font-weight: 700;
@@ -25,9 +25,7 @@
 			color: orange;
 		}
 
-		p {
-			margin-left: 20px;
-		}
+		
 
 
 
@@ -67,46 +65,78 @@
 
 
 	<div class="container">
-		<h1>Page Demos</h1>
-		<p>Orange hyperlink: recommend to view</p>
-		<h3>Intro to HTML</h3>
-		  <ul>
-				<li class="indent"><a class="recommend" href="3 intro to html/03.19 firstPage.html">First Page</a></li>
-				<li class="indent"><a href="3 intro to html/03.22 quiz1.html">Quiz 1</a></li>
-				<li class="indent"><a href="3 intro to html/03.24 demo.html">Divs and Spans</a></li>
-				<li class="indent"><a href="3 intro to html/03.26 rusty.html">Rusty Steele</a></li>
-			</ul>
-		<h3>Intermediate HTML</h3>
-			<ul>
-				<li class="indent"><a href="4 intermediate html/04.29 table.html">Table</a></li>
-				<li class="indent"><a href="4 intermediate html/04.30 Pokemon.html">Pokemon</a></li>
-				<li class="indent"><a href="4 intermediate html/04.32 form.html">Form</a></li>
-				<li class="indent"><a href="4 intermediate html/04.37 inputs.html">Inputs</a></li>
-				<li class="indent"><a class="recommend" href="4 intermediate html/04.38 register.html">Register</a></li>
-			</ul>
-		<h3>Intro to CSS</h3>
-			<ul>
-				<li class="indent"><a href="5 intro to css/05.43 aboutMe.html">About Me</a></li>
-				<li class="indent"><a href="5 intro to css/05.48 toDoList.html">ToDo List</a></li>
-				<li class="indent"><a href="5 intro to css/05.52 specificity.html">Specificity</a></li>
-				<li class="indent"><a class="recommend" href="5 intro to css/05.54 selectorsExercise.html">Selector Exercise</a></li>
-			</ul>
-		<h3>Intermediate CSS</h3>
-			<ul>
-				<li class="indent"><a class="recommend" href="6 intermediate css/06.57 fonts.html">Fonts</a></li>
-				<li class="indent"><a href="6 intermediate css/06.61 boxmodel.html">Box Model</a></li>
-				<li class="indent"><a href="6 intermediate css/06.63 board.html">Board</a></li>
-				<li class="indent"><a class="recommend" href="6 intermediate css/06.65 photoGrid.html">Photo Grid</a></li>
-				<li class="indent"><a class="recommend" href="6 intermediate css/06.68 blog.html">Blog</a></li>
-			</ul>
-		<h3>Bootstrap</h3>
-			<ul>
-				<li class="indent"><a class="recommend" href="7 bootstrap/07.75 basics.html">Basics</a></li>
-				<li class="indent"><a href="7 bootstrap/07.77 navbars.html">Navbars</a></li>
-				<li class="indent"><a href="7 bootstrap/07.79 grid.html">Grid</a></li>
-				<li class="indent"><a class="recommend" href="7 bootstrap/07.82 gallery.html">Image Gallery</a></li>
-				<li class="indent"><a class="recommend" href="7 bootstrap/07.85 startup.html">A Start Up Landing Page</a></li>
-			</ul>
+		<div class="jumbotron">
+			<h1>Page Demos</h1>
+			<p>Orange hyperlink: recommend to view</p>
+		</div>
+		
+
+		<div class="row">
+			<div class="col-lg-3 col-md-6">
+				<h3>Intro to HTML</h3>
+				  <ul>
+						<li class="indent"><a class="recommend" href="3 intro to html/03.19 firstPage.html">First Page</a></li>
+						<li class="indent"><a href="3 intro to html/03.22 quiz1.html">Quiz 1</a></li>
+						<li class="indent"><a href="3 intro to html/03.24 demo.html">Divs and Spans</a></li>
+						<li class="indent"><a href="3 intro to html/03.26 rusty.html">Rusty Steele</a></li>
+					</ul>
+			</div>
+			<div class="col-lg-3 col-md-6">
+				<h3>Intermediate HTML</h3>
+					<ul>
+						<li class="indent"><a href="4 intermediate html/04.29 table.html">Table</a></li>
+						<li class="indent"><a href="4 intermediate html/04.30 Pokemon.html">Pokemon</a></li>
+						<li class="indent"><a href="4 intermediate html/04.32 form.html">Form</a></li>
+						<li class="indent"><a href="4 intermediate html/04.37 inputs.html">Inputs</a></li>
+						<li class="indent"><a class="recommend" href="4 intermediate html/04.38 register.html">Register</a></li>
+					</ul>
+			</div>
+			
+			<div class="col-lg-3 col-md-6">
+				<h3>Intro to CSS</h3>
+					<ul>
+						<li class="indent"><a href="5 intro to css/05.43 aboutMe.html">About Me</a></li>
+						<li class="indent"><a href="5 intro to css/05.48 toDoList.html">ToDo List</a></li>
+						<li class="indent"><a href="5 intro to css/05.52 specificity.html">Specificity</a></li>
+						<li class="indent"><a class="recommend" href="5 intro to css/05.54 selectorsExercise.html">Selector Exercise</a></li>
+					</ul>
+			</div>
+
+			
+			
+			<div class="col-lg-3 col-md-6">
+				<h3>Intermediate CSS</h3>
+					<ul>
+						<li class="indent"><a class="recommend" href="6 intermediate css/06.57 fonts.html">Fonts</a></li>
+						<li class="indent"><a href="6 intermediate css/06.61 boxmodel.html">Box Model</a></li>
+						<li class="indent"><a href="6 intermediate css/06.63 board.html">Board</a></li>
+						<li class="indent"><a class="recommend" href="6 intermediate css/06.65 photoGrid.html">Photo Grid</a></li>
+						<li class="indent"><a class="recommend" href="6 intermediate css/06.68 blog.html">Blog</a></li>
+					</ul>
+				</div>	
+		</div>
+		<hr>
+		<div class="row">
+				<div class="col-lg-3 col-md-6">
+					<h3>Bootstrap</h3>
+						<ul>
+							<li class="indent"><a class="recommend" href="7 bootstrap/07.75 basics.html">Basics</a></li>
+							<li class="indent"><a href="7 bootstrap/07.77 navbars.html">Navbars</a></li>
+							<li class="indent"><a href="7 bootstrap/07.79 grid.html">Grid</a></li>
+							<li class="indent"><a class="recommend" href="7 bootstrap/07.82 gallery.html">Image Gallery</a></li>
+							<li class="indent"><a class="recommend" href="7 bootstrap/07.85 startup.html">A Startup Landing Page</a></li>
+						</ul>
+				</div>
+				<div class="col-lg-3 col-md-6"></div>
+				<div class="col-lg-3 col-md-6"></div>
+				<div class="col-lg-3 col-md-6"></div>
+			</div>
+
+		
+		
+		
+		
+		
 	</div>
 
 </body>
